@@ -3,7 +3,7 @@
 COMMAND=$1
 
 WiMP=$(readlink -e /proc/$(pidof WiMP)/exe)
-if [ -z WiMP ]; then
+if [ -z $WiMP ]; then
     echo "WiMP not found" 1>&2
     exit 1
 fi
