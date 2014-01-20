@@ -21,7 +21,7 @@ case $COMMAND in
     *)
         echo "Usage: $0 <command>" 1>&2
         echo "   Where <command> is:" 1>&2
-        echo "      playpayse" 1>&2
+        echo "      playpause" 1>&2
         echo "      prev" 1>&2
         echo "      next" 1>&2
         exit 1

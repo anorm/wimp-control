@@ -9,7 +9,7 @@ Usage
 ```
 wimp.sh <command>
    Where <command> is:
-      playpayse
+      playpause
       prev
       next
 ```
